@@ -1,8 +1,8 @@
-# Phoneme Incident Response 🚨
+# Phoneme Incident Response 
 
 An automated, AI-driven Site Reliability Engineering (SRE) tool that accelerates the incident response process. When production goes down, this system ingests raw logs, diagnoses the root cause, searches the web for technical solutions, and automatically drafts a comprehensive Incident Resolution Plan.
 
-## 🧠 Architecture
+##  Architecture
 
 The workflow is powered by **LangChain** and **Groq (Llama 3.3)**, operating through a three-agent pipeline:
 
@@ -14,7 +14,7 @@ The workflow is powered by **LangChain** and **Groq (Llama 3.3)**, operating thr
 3. **Agent 3: Resolution Planner**
    - Synthesizes the log diagnosis and search research into a formal, actionable Markdown Runbook containing immediate fixes, verification steps, and a rollback plan.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Python 3**
 - **LangChain** (Agent framework)
@@ -22,7 +22,7 @@ The workflow is powered by **LangChain** and **Groq (Llama 3.3)**, operating thr
 - **DuckDuckGo Search** (Live web research)
 - **python-dotenv** (Environment variable management)
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
