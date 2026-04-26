@@ -53,7 +53,7 @@ You need a free API key from [Groq Console](https://console.groq.com/keys).
    GROQ_API_KEY=your_actual_groq_api_key_here
    ```
 
-## 💻 Usage
+## Usage
 
 To run the automated incident triage, simply execute the main script:
 
@@ -75,7 +75,7 @@ The system will print its progress to the console:
 
 Once complete, a new file named `incident_report.md` will be generated in your directory containing the full step-by-step resolution plan.
 
-## 📁 File Structure
+## File Structure
 
 - `main.py` - The entry point that orchestrates the agent workflow.
 - `agents.py` - Contains the LangChain setup and the prompts for Agents 1, 2, and 3.
